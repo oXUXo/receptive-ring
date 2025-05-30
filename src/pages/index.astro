@@ -3,6 +3,9 @@ import Welcome from "../components/Welcome.astro";
 import Layout from "../layouts/Layout.astro";
 import { FeaturesSectionDemo } from "../components/features";
 import Feature from "@/components/feature";
+import FeaturesSection from "@/components/feturesSection";
+import ProductsSection from "@/components/productSection";
+import IndustrySection from '@/components/industrySection';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -10,5 +13,7 @@ import Feature from "@/components/feature";
 
 <Layout>
 	<Feature />
-	<FeaturesSectionDemo client:load />
+	<FeaturesSection client:load />
+	<ProductsSection client:load />
+	<IndustrySection client:load />
 </Layout>

@@ -482,7 +482,7 @@ const ModernHeader = () => {
       </div>
 
       {/* 演示内容 */}
-      {[...Array(10)].map((_, i) => (
+      {/* {[...Array(10)].map((_, i) => (
         <motion.div
           key={i}
           className="max-w-4xl mx-auto p-8 mb-8"
@@ -512,7 +512,7 @@ const ModernHeader = () => {
             </p>
           </motion.div>
         </motion.div>
-      ))}
+      ))} */}
     </>
   );
 };
