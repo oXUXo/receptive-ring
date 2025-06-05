@@ -20,7 +20,7 @@ const ModernHeader = () => {
 
   useEffect(() => {
     const unsubscribe = scrollY.on("change", (latest) => {
-      setIsScrolled(latest > 100);
+      setIsScrolled(latest > 160);
     });
     return () => unsubscribe();
   }, [scrollY]);
